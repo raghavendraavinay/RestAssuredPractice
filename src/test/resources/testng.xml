@@ -1,0 +1,12 @@
+<suite name="Default Suite">
+  <test thread-count="5" name="RestAssuredPractice">
+    <classes>
+      <class name="DataDrivenTest">
+        <parameter name="id" value="9"/>
+        <methods>
+          <include name="test_delete2"/>
+        </methods>
+      </class> <!-- Intial.TestGet -->
+    </classes>
+  </test> <!-- RestAssuredPractice -->
+</suite> <!-- Default Suite -->
